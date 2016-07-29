@@ -1,0 +1,19 @@
+0.  BMP:if BMP 24 bit:16777216 colors if BMP 32 bit:4294967296, JPG: 24 bit:16777216 colors, GIF:8 bit:256 colors, PNG: 8 bit:256 colors ,PNG 24 bit 16777216 colors.
+1.  gif,png and jpg 
+2.  lossy compression:image is compressed by deleting some of its bits or data to reduce size of image. here you cannot recover exact replica of original image. (compressed it). In lossless compression:data or bits of image is not deleted while compressing it. you can recover original image without any loss of data when decompressed the image.  
+3.  jPEG
+4.  It does two thing 1:it modifies the first character of filename to send the signal that this file is deleted and also modifies the directory name. 2: it moves all the cluster of file to the hard drive free cluster list
+5.  most probably he/she will destroy his hardisk or overwrite data with other data like(ASCII NUL)
+6.  stdint.h it allows us to define exact width integer. which allow us store data in form of hex so thet we can use appropriately according to our need. it define both signed and unsigned bit. it allow us to manipulate data at bit leve.
+7.  normally uint8_t:is used to define a byte in c which can use to store in forms of byte. uint32_t: is used to store large 32 bit integer it is used to store large data in single variable. int32_t:is used to store large unsigned integer value in it.uint16_t:is use to represent 16 bit unsigned basically 4 hex digit. 
+8.  Byte is:1 byte, Dword:4 byte, Long:4 byte, Word: 2Byte
+9.  1: hex:0x42 Dec:66 ASCII=B, 2: hex:0x4D Dec:77 ASCII:M
+10. biSize:is the size of structure in byte, bfSize: is the size of overall bmp file or bmp image.
+11. biHeight:is the height pixel if it is positive then it is bottom up and origin is lower-left or if negetive then top down then origin is upper-right
+12. biBitCount
+13. in line 37 fopen will return NULL if it not able to create a output file in current directory
+14. because each time we are reading one pixel at a time and processing it .
+15. 3
+16. fseek is use to move the file pointer. it moves the file pinter from position specified upto added offset to position. position can be Seek_Cur or begining or end. let say seek cur it will start from current file pointer to current pointer+offset position
+17. SEEK_CUR: is use to move the file pointer from its current position
+18. 

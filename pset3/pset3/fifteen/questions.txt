@@ -1,0 +1,9 @@
+questions.txt
+
+Computer Science 50
+Problem Set 3
+
+0. besides 4x4 board size it can be 3x3,5x5,6x6,7x7,8x8,9x9
+1. it is represented using 2-dimension array ie board[d][d];
+2. it first clear screen and then greet the user with welcome message using printf  and also call usleep(2000000)
+3. functions are init,draw,move,won;

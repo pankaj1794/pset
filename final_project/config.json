@@ -1,0 +1,8 @@
+{
+    "database": {
+        "host": "localhost",
+        "name": "final_project",
+        "username": "root",
+        "password": ""
+    }
+}

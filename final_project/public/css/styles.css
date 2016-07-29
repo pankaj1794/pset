@@ -1,0 +1,193 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+
+#header1
+{
+    margin-left:6%;
+    margin-right:6%;
+	height:200px;
+	text-align:center;
+    
+}
+#header1 a
+{	
+	text-decoration:none;
+	color:white;
+	
+}
+#header1 h2
+{
+	margin-top:59px;
+	font-size:50px;
+}
+
+#menu
+{  margin-left:6%;
+    margin-right:6%;
+   height:50px;
+       background-color:#0A436E;
+    
+}
+ .nav1
+{
+    /* center navigation pills */
+    list-style:none;
+    padding:0;
+    margin:0;
+    margin-left:50px;
+   
+    
+}
+.nav1 li
+{
+    float:left;
+     background-color:#0A436E;
+  
+    color:white;
+    
+}
+.nav1 a
+{
+    text-decoration:none;
+    display:block;
+    padding: 14px 50px;
+    text-align: center;
+     color:white;
+}
+a:hover
+{
+    background-color:black;
+}
+#middle
+{
+    width:auto;
+    text-align:center;
+    margin-left:6%;
+    margin-right:6%;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+input[type="text"]
+{
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 14px 16px;
+}
+input[type="password"]
+{
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 14px 16px;
+}
+input[type="email"]
+{
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 14px 16px;
+}
+fieldset
+{
+    background-color: #f2f2f2;
+}
+button[type="submit"]
+{
+    background-color: #4CAF50;
+    display: inline-block;
+    border-radius: 8px;
+    box-sizing: border-box;
+     padding: 14px 25px;
+}
+button[type="submit"]:hover
+{
+    background-color: #45a049;
+}
+button
+{
+    background-color: #4CAF50;
+    display: inline-block;
+    border-radius: 8px;
+    box-sizing: border-box;
+     padding: 14px 25px;
+}
+button:hover
+{
+    background-color: #45a049;
+}
+#mslider
+{
+	width:100%;
+	text-align:center;
+	background-color: #f2f2f2;
+	
+}
+.slider
+{	display:none;
+	width:50%;
+	margin-left:23%;
+}
+
+.upload h4
+{
+    color:green;
+}
+.imgup{
+	display: flex;
+	
+}
+.imgup   div{
+	flex:1;
+	height:400px;
+
+	background-color:#f2f2f2;
+	border-radius: 8px;
+	
+
+}
+.imgup img{
+	
+	height:300px;
+	width:200px;
+	margin-top:20px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+   margin-left:6%;
+    margin-right:6%;
+    /* surround with whitespace */
+   background-color:#0A436E;
+   height:100px;
+}

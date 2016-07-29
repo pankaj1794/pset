@@ -1,0 +1,11 @@
+0.  possibly is a lung disease which is caused by inhaling fine ash or sand dust 
+1.  return the resources usage statistics for the calling process which is sum of all thread
+2.  16
+3.  because we want to calculate resourse utilization of each function by calculating before function call resourse utilization then after calling how is resourse utilization
+4.  in main it read each character by character using getch then append each character into word array after receiving \n it then sends word to check process continue to EOF.in for loop first it int c to first character then check condition in for loop to new line '\n' itrate each time to next character using c=getch().it iterate upto '\n'  
+5.  fscanf will return number of items it read and filled in output variable and EOF if error occurs so finding end of file is difficult and also if we read character using fscanf may required fixed width it also does not appen \0 at end of string  
+6.  because they are char pointer if we change anything in them it directly going to effect the orignal string because we are passing address . so using const it declaration we cannot change any value of it.
+7.  trie reason for using trie is its efficiency in time it do required huge memeory.trie is data struture which has array of node each node can have his own array in did keep on expanding like tree
+8.  it was 0.34 
+9.  when it was worked then i removed some unwanted if conditions and loop then then it brings to 0.17
+10. no
